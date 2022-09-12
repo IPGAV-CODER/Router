@@ -1,0 +1,26 @@
+Funcionamento
+
+	ROUTER
+	
+		Aceita apenas uma conexão por vez:
+			Se duas conexões forem requisitadas, o router atenderá apenas a última, a primeira não será requisitada até que, seja feita uma nova requisição.
+
+ERRORS
+
+	101 - Router, modo de config_request não válido. Auto | Manual
+
+Arquivos
+
+router_config	A00EF13 - config_router
+C012A			21BCE	- requests_router
+C014A 			C0AAAB	- New IP file - writed by router
+C017A 			21C99	- Confirmação de IP, writed by protocolo de rede
+
+
+COMO CONFIGURAR REDE
+
+PDR				ROUTER
+				CONFIG_GATEWAY()
+IP()
+ENTER			Setting...
+				
